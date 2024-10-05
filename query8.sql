@@ -1,3 +1,4 @@
+-- Query that lists all the tracks that are not in one of the top 5 genres with longer duration in the database
 WITH GenreAverageLength AS (
     SELECT 
         g.GenreId,
